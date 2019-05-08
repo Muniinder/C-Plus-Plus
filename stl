@@ -1,0 +1,25 @@
+  Heap:
+    make_heap( begin(numbers), end(numbers) );
+    push_heap( begin(numbers), end(numbers) );
+    pop_heap( begin(numbers), end(numbers) );
+  Sort:
+    sort
+    partial_sort
+    nth_element
+    sort_heap
+    inplace_merge
+  Partition:
+    partition_point
+  Permutations:
+    rotate
+    shuffle
+    next_permutation
+    prev_permutation
+    revrese
+  Stable:
+    stable_*
+    is_*
+    is_*_until
+  Queries:
+    count
+    accumulate
